@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import { Provider } from "react-redux";
 
 import "./App.css";
 
 import store from "./store";
-import Home from "./Home";
+import Routes from "./Routes";
 
 export default () => (
    <Provider store={store}>
-      <Home />
+      <Routes />
    </Provider>
 );

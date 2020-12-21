@@ -9,7 +9,7 @@ const Routes = () => {
       <>
          <Router>
             <Switch>
-               <Route exact path="/">
+               <Route exact path="/react-redux-saga-itunes-api">
                   <Home />
                </Route>
 

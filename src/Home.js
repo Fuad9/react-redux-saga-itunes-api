@@ -2,7 +2,6 @@ import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import ReactAudioPlayer from "react-audio-player";
-import { Button } from "antd";
 import { Link } from "react-router-dom";
 
 import { requestApiData } from "./actions";

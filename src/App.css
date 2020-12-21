@@ -21,3 +21,17 @@ h1 {
 span {
    color: orange;
 }
+
+::-webkit-scrollbar {
+   width: 17px;
+}
+
+::-webkit-scrollbar-track {
+   border-radius: 10px;
+   background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background-image: linear-gradient(45deg, orange, orangered);
+}
